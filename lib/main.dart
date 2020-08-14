@@ -86,6 +86,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           content:
                               Text('Install the Instagram app to continue.'),
                           action: SnackBarAction(
+                            textColor: Colors.amberAccent,
                             label: 'OK',
                             onPressed: () {},
                           ),
